@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "version": "0.1.0",
+    "goal": {
+      "one": "Build layout component, nav component, blog component",
+      "two": "git integration up and running",
+      "three": "DON'T GIVE UP"
+    },
+    "desc": "Building the site, using Next.js@12, following youTube tutorial Next.js Tutorial For Beginners by The Net Ninja. Published Jan 2021",
+    "success": {
+      "one": "Layout, Nav components built, blog semidynamic",
+      "two": "Global styling set up and some applied",
+      "three": "Added logo to home page"
+    },
+    "next": {
+      "one": "Create Design page and start Design Tasks",
+      "two": "Integrate CSS Grid to standardize layout",
+      "three": "Build simple dev and design kanban boards (no drag and drop)"
+    },
+    "notes": "A few more success than anticipated but have a long way to go before I am happy with it. Need to find a way to render an unset number of goals, successes and iteration tasks."
+  }
+]

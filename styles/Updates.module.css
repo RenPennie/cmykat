@@ -1,0 +1,39 @@
+.entry {
+  background-color: black;
+  color: cyan;
+  font-family: monospace;
+  padding: 1em;
+  margin: 1em, 0, 1em, 0;
+}
+
+.entry a {
+  color: magenta;
+}
+
+.entry a:hover {
+  color: white;
+}
+
+.entry h3 {
+  margin: 0;
+}
+
+.entry h4 {
+  margin-bottom: 0;
+}
+
+.entry ul {
+  margin: 0;
+}
+
+.notes p {
+  margin-top: 0;
+}
+
+.break {
+  width: 120%;
+  position: relative;
+  left: -10%;
+  padding: 12px;
+  background-color: white;
+}

@@ -1,0 +1,49 @@
+/* REMINDER!!! ALL image style has to be done here if using the Image component */
+
+/* Import Google Font(s) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap");
+
+/*Set global styles*/
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+.content {
+  width: 80%;
+  max-width: 960px;
+  margin: auto;
+  color: #001b21;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: baseline;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+  margin-right: 1em;
+}
+
+.image-wrapper-navlogo {
+  display: flex;
+  margin-right: 1em;
+}
+
+.image-wrapper-navlogo > img {
+  fill: lime;
+}
+
+a {
+  color: #300275;
+}
+
+a:hover {
+  fill: white;
+  color: white;
+  background-color: magenta;
+}
