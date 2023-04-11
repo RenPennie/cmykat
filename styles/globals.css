@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap");
 
 /*Set global styles*/
+/* Elements found on each page */
 html {
   font-family: "Poppins", sans-serif;
 }
@@ -20,7 +21,7 @@ nav {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  align-content: baseline;
+  align-items: center;
 }
 
 .navigation a {
@@ -29,6 +30,12 @@ nav {
   margin-right: 1em;
 }
 
+footer {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+/* Work around to use image in navbar */
 .image-wrapper-navlogo {
   display: flex;
   margin-right: 1em;
@@ -38,12 +45,34 @@ nav {
   fill: lime;
 }
 
+/* Style all anchor tags on the site */
 a {
   color: #300275;
+  padding: 0.5em;
 }
 
 a:hover {
-  fill: white;
-  color: white;
-  background-color: magenta;
+  background-color: cyan;
+}
+
+/* Links that are embedded in other texts */
+.inline-link {
+  padding: 0;
+}
+
+/* PAGE HEADER -- H1 and p tag that contain page title and description of page content */
+.pageheader h1 {
+  text-decoration: underline;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.pageheader p {
+  padding-top: 0;
+  margin-top: 0;
+  color: gray;
+}
+
+.pageheader p::before {
+  content: "\002D";
 }
